@@ -1,0 +1,24 @@
+{
+  "name": "orange-connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdahmed93/orange-connect.git"
+  },
+  "keywords": [
+    "sms",
+    "api",
+    "orange"
+  ],
+  "author": "Ahmed Zribi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zdahmed93/orange-connect/issues"
+  },
+  "homepage": "https://github.com/zdahmed93/orange-connect#readme"
+}

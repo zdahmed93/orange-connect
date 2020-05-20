@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/zdahmed93/orange-connect#readme",
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.0.4",
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }

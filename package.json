@@ -1,6 +1,6 @@
 {
   "name": "orange-connect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connect a NodeJs server to the Orange SMS API",
   "main": "lib/index.js",
   "types": "lib",

@@ -18,7 +18,7 @@ yarn add orange-connect
 const { sendSMS } = require('orange-connect')
 
 sendSMS({
-      authorizationHeader: "Bearer ******************************==", // Your Authorization Header that you get from your Orange SMS APP Settings
+      authorizationHeader: "Basic ******************************==", // Your Authorization Header that you get from your Orange SMS APP Settings
       from: "+21600000000", // Your Orange account's phone number
       to: "+21600000000",
       message: "Hello from orange-connect :)"
@@ -32,7 +32,7 @@ sendSMS({
 async function sendMessage() {
   try {
     const response = await sendSMS({
-      authorizationHeader: "Bearer ******************************==", // Your Authorization Header that you get from your Orange SMS APP Settings
+      authorizationHeader: "Basic ******************************==", // Your Authorization Header that you get from your Orange SMS APP Settings
       from: "+21600000000", // Your Orange account's phone number
       to: "+21600000000",
       message: "Hello from orange-connect :)"
